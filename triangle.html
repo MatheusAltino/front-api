@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre seu triângulo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="container-fluid" id=main-container>
+        <h1> Cadastre os catetos do triângulo e receba a hipotenusa</h1>
+        <form action="input" method="post" name="create" id="form-triangle">
+            <div class="mb-3">
+                <label for="idUser" class="form-label"></label>
+                <input type="number" class="form-control" id="idUser" placeholder="Seu idUser">
+            </div>
+            <div class="mb-3">
+                <label for="cateto1" class="form-label"></label>
+                <input type="number" class="form-control" id="cateto1" placeholder="O cateto 1">
+            </div>
+            <div class="mb-3">
+                <label for="cateto2" class="form-label"></label>
+                <input type="number" class="form-control" id="cateto2" placeholder="O cateto 2">
+                <br></br>
+                <input type="submit" id="btn-submit"value="Registrar meu triângulo">
+            </div>
+        </form>
+        <p id="triangle">Os dados do seu triângulo são: </p>
+        <div>
+            <a class="list-group-item list-group-item-action" href="/index.html">Registre-se aqui</a>
+        </div>
+    </main>
+    <script src="js/triangle.js"></script>
+</body>
+</html>
