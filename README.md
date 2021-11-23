@@ -1,5 +1,5 @@
 # FRONT-API
-[![NPM](https://img.shields.io/npm/l/react)](link do readme) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/MatheusAltino/front-api/blob/master/LICENSE) 
 
 # Sobre o projeto
 Este projeto se trata de um front-end configurado com o fetch para consumir uma api que calcula a hipotenusa de um triângulo.
